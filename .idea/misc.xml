@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Leonel/Downloads/Trivia_app2/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Leonel/Downloads/Trivia_app2/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.136" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/gradiente_fondo.xml" value="0.227" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.227" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/ic_emailimg.xml" value="0.136" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/ic_imghome.xml" value="0.227" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/ic_menu_camera.xml" value="0.227" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.227" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/ic_outline_skip_next.xml" value="0.227" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/ic_userlogin.xml" value="0.227" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/drawable/side_nav_bar.xml" value="0.136" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/activity_principal.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/activity_registro.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/app_bar_principal.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/content_principal.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/fragment_gallery.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/fragment_slideshow.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/layout/nav_header_principal.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/menu/activity_menuinicio_drawer.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/menu/menuoverflow.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/AndroidStudioProjects/Trivia_app2/app/src/main/res/menu/principal.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/bg_round.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/borderline_buttons.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/ic_baseline_arrow_back_white.xml" value="0.1805" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/ic_contraimg.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/ic_emailimg.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/ic_imghome.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/rectangulo_respuestabuena.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/drawable/rectangulo_respuestamala.xml" value="0.2115" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_categories.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_leaderboard.xml" value="0.33" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_quiz.xml" value="0.33" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_registro.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_rules.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_scoreboard.xml" value="0.33" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_splash_screen.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/activity_user_profile.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/cardview_categories.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/cardview_leaderboard.xml" value="0.33" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/layout/progress_dialog.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.119" />
+        <entry key="..\:/Users/RobertoPC/Downloads/Trivia_app2/Trivia_app2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.119" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

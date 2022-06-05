@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    app:cardCornerRadius="11dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".Scoreboard">
+
+    <RelativeLayout
+        android:id="@+id/relativelayoutScore1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgScoreboard"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/trophy2" />
+
+        <TextView
+            android:id="@+id/txtTituloScoreboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgScoreboard"
+            android:layout_marginTop="20dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/archivo_black"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="¡Bien Hecho!"
+            android:textAlignment="center"
+            android:textColor="#283747"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/txtTituloScoreboard"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="30dp"
+            android:background="#707B7C" />
+
+        <TextView
+            android:id="@+id/txt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTituloScoreboard"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Your Score"
+            android:textColor="#283747"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPuntuacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt12"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:text="0"
+            android:textColor="#1F618D"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTituloScoreboard"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/txt12"
+            android:text="Correct"
+            android:textColor="#283747"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtanswerBuenas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt12"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/txt12"
+            android:text="3"
+            android:textColor="#1E8449"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTituloScoreboard"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/txt13"
+            android:text="Wrong"
+            android:textColor="#283747"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMalas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt12"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/txt13"
+            android:text="12"
+            android:textColor="#922B21"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMain1"
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_below="@+id/txtMalas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRankingScore"
+                android:layout_width="164dp"
+                android:layout_height="142dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:alpha="0.75"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:drawableTop="@drawable/ic_baseline_star_24"
+                android:paddingTop="15dip"
+                android:text="Leaderboard"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnHomeScore"
+                android:layout_width="164dp"
+                android:layout_height="142dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:alpha="0.75"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:drawableTop="@drawable/ic_baseline_exit_to_app_24"
+                android:paddingTop="15dip"
+                android:text="Salir"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

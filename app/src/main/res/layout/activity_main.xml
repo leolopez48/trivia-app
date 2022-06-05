@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iconoMain"
+        android:layout_centerHorizontal="true"
+        android:layout_width="156dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="74dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoxd" />
+
+    <ImageView
+        android:id="@+id/btnlogoutimg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:tooltipText="Logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shutdown" />
+
+    <ImageView
+        android:id="@+id/btnMusicON"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:tooltipText="Logout"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_music_on_24" />
+
+
+    <TextView
+        android:id="@+id/textMainmotto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMainTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/antic"
+        android:text="¡Divierte Aprendiendo sobre cultura general!"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/txtMainTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconoMain"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/archivo_black"
+        android:text="Trivia Quiz"
+        android:textColor="#000"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMain1"
+        android:layout_width="381dp"
+        android:layout_height="167dp"
+        android:layout_below="@+id/textMainmotto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnJugar"
+            android:layout_width="164dp"
+            android:layout_height="142dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:alpha="0.50"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:drawableTop="@drawable/ic_baseline_play_circle_outline_24"
+            android:paddingTop="15dip"
+            android:text="Empezar"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnRanking"
+            android:layout_width="164dp"
+            android:layout_height="142dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:alpha="0.50"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:drawableTop="@drawable/ic_baseline_star_24"
+            android:paddingTop="15dip"
+            android:text="Leaderboard"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMain2"
+        android:layout_width="381dp"
+        android:layout_height="167dp"
+        android:layout_below="@+id/linearLayoutMain1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnUsuario"
+            android:layout_width="164dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="16dp"
+            android:alpha="0.50"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:drawableTop="@drawable/ic_baseline_person_24"
+            android:paddingTop="15dip"
+            android:text="Panel de usuario"
+            android:textColor="@color/white"
+
+            />
+
+        <Button
+            android:id="@+id/btnReglas"
+            android:layout_width="164dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="16dp"
+            android:alpha="0.50"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:drawableTop="@drawable/ic_baseline_menu_book_24"
+            android:paddingTop="15dip"
+            android:text=" Reglas del juego"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
